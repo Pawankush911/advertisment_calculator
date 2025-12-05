@@ -1,0 +1,61 @@
+/* Import Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Full Background */
+.bg-wrapper {
+  background-color: #051041; /* Deep Blue */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main Content Box */
+.container-responsive {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Cards */
+.custom-card {
+  background: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Title Styling */
+.title-text {
+  font-weight: 700;
+  color: #000000;
+}
+
+/* Table Text */
+.small-text {
+  font-size: 12px;
+}
+
+/* Ad Time Highlight */
+.result-row {
+  background-color: #2d2d2d;
+  color: #ffc107;
+  font-size: 18px;
+}
+
+/* Mobile Responsive Adjustments */
+@media(max-width: 576px) {
+  .title-text {
+    font-size: 22px;
+  }
+  .table {
+    font-size: 12px;
+  }
+}
+
+
